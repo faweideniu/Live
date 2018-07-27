@@ -1,0 +1,132 @@
+﻿生成启动时间为 2018/7/27 15:18:28。
+     1>项目“C:\Users\LW\Desktop\Project\MFC\Live\Live\Live.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\LW\Desktop\Project\MFC\Live\Live\/include /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Live.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ffmpeg_camera_streamer.cpp
+         ffmpeg_camera_streamer.cpp
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(4): warning C4627: “#include <conio.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>c:\users\lw\desktop\project\mfc\live\live\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(153): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(244): warning C4996: 'avcodec_encode_video2': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5388) : 参见“avcodec_encode_video2”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(244): warning C4996: 'avcodec_encode_audio2': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5349) : 参见“avcodec_encode_audio2”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(268): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(269): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(277): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(442): warning C4996: 'av_register_all': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(2043) : 参见“av_register_all”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(556): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(557): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(565): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(577): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(578): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(584): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(591): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(597): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(607): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(608): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(648): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(660): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(665): warning C4996: 'AVCodecContext::noise_reduction': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(2033) : 参见“AVCodecContext::noise_reduction”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(683): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(702): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(703): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(704): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(715): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(716): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(717): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(736): warning C4996: 'avpicture_get_size': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5436) : 参见“avpicture_get_size”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(740): warning C4996: 'avpicture_fill': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5421) : 参见“avpicture_fill”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(805): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(806): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(4757) : 参见“avcodec_decode_video2”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(836): warning C4996: 'avcodec_encode_video2': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5388) : 参见“avcodec_encode_video2”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(849): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(858): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(864): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(949): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(950): warning C4996: 'avcodec_decode_audio4': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(4708) : 参见“avcodec_decode_audio4”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1076): warning C4996: 'avcodec_encode_audio2': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5349) : 参见“avcodec_encode_audio2”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1091): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1092): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1105): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1106): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1113): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1118): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1226): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1232): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1169): warning C4102: “cleanup”: 未引用的标签
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(416): warning C4101: “enc_pkt_a”: 未引用的局部变量
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(416): warning C4101: “dec_pkt_a”: 未引用的局部变量
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1280): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1287): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1288): warning C4996: 'avcodec_encode_video2': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5388) : 参见“avcodec_encode_video2”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1303): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1324): warning C4996: 'av_free_packet': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(4402) : 参见“av_free_packet”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1333): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1340): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1341): warning C4996: 'avcodec_encode_audio2': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(5349) : 参见“avcodec_encode_audio2”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1353): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavformat\avformat.h(878) : 参见“AVStream::codec”的声明
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1356): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\users\lw\desktop\project\mfc\live\live\ffmpeg_camera_streamer.cpp(1379): warning C4996: 'av_free_packet': 被声明为已否决
+                 c:\users\lw\desktop\project\mfc\live\live\include\libavcodec\avcodec.h(4402) : 参见“av_free_packet”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LW\Desktop\Project\MFC\Live\Debug\Live.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\LW\Desktop\Project\MFC\Live\Live\/lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\LW\Desktop\Project\MFC\Live\Debug\Live.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LW\Desktop\Project\MFC\Live\Debug\Live.lib" /MACHINE:X86 Debug\Live.res
+         Debug\DS_AudioVideoDevices.obj
+         Debug\ffmpeg_camera_streamer.obj
+         Debug\HelperChar.obj
+         Debug\Live.obj
+         Debug\LiveDlg.obj
+         Debug\muxing.obj
+         Debug\stdafx.obj
+         Debug\transcoding.obj
+         Live.vcxproj -> C:\Users\LW\Desktop\Project\MFC\Live\Debug\Live.exe
+     1>已完成生成项目“C:\Users\LW\Desktop\Project\MFC\Live\Live\Live.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.82
